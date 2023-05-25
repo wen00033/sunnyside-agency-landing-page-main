@@ -325,7 +325,7 @@ footer {
     align-items: center;
   }
   .navigation-list-contact {
-    background-color: var(--White);
+    background-color: white;
   }
   .logo-top {
     align-self: center;
@@ -361,6 +361,7 @@ footer {
   .client {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-row: 1fr 1fr;
   }
   .client h3 {
     grid-column: 1 / span 3;
