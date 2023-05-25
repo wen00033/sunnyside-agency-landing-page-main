@@ -4,7 +4,6 @@ const navigation = document.querySelector(".navigation");
 hambugerMenu.addEventListener("click", function (e) {
   e.preventDefault();
   const check = hambugerMenu.getAttribute("data-toggle");
-  console.log(check);
   if (check == "false") {
     navigation.setAttribute("data-expended", true);
     hambugerMenu.setAttribute("data-toggle", true);
